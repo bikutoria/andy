@@ -17,6 +17,6 @@ function convertExcelToJson(filePath) {
 
 // Convert and save the data as JSON
 const jsonData = convertExcelToJson(excelFilePath);
-fs.writeFileSync('questions.json', JSON.stringify(jsonData, null, 2), 'utf8');
+fs.writeFileSync('data.json', JSON.stringify(jsonData, null, 2), 'utf8');
 
 console.log('Excel file has been converted to JSON');
