@@ -7,6 +7,7 @@ const resolvers = require('../resolvers.js');
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
+  introspection: true,
   cache: 'bounded',
 });
 
