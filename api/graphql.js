@@ -1,4 +1,5 @@
-import { ApolloServer, gql } from 'apollo-server-micro';
+//import { ApolloServer, gql } from 'apollo-server-micro';
+const { ApolloServer } = require('apollo-server-micro');
 // Import your schema and resolvers as before
 const typeDefs = require('../schema.js');
 const resolvers = require('../resolvers.js'); 
