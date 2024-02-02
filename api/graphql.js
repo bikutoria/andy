@@ -21,8 +21,9 @@ export default async function handler(req, res) {
 
   if (req.method === 'OPTIONS') {
     // Respond to OPTIONS request for preflight with status 200
-    res.status(200).end();
-    return;
+    res.end();
+    //res.status(200).end();
+    return false;
   }
 
   await startServer;
