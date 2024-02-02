@@ -9,6 +9,8 @@ const typeDefs = gql`
   type QuestionItem {
     ID: ID!
     Question: String!
+    Type1: String!
+    Type2: String!
   }
 `;
 
