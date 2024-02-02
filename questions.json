@@ -1,0 +1,301 @@
+[
+  {
+    "ID": 1,
+    "Question": "What do you crave at the moment?",
+    "Familiarity": 2,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 2,
+    "Question": "Confess to something",
+    "Familiarity": 2,
+    "Type2": "Action"
+  },
+  {
+    "ID": 3,
+    "Question": "What would make you feel closer to me?",
+    "Familiarity": 3,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 4,
+    "Question": "What is one part of your body you are the most proud of?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 5,
+    "Question": "What musical artist is your secret guilty pleasure?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 6,
+    "Question": "What does my current phone wallpaper tell you about me?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 7,
+    "Question": "Do you think I intimidate others? Why?",
+    "Type2": "Binary"
+  },
+  {
+    "ID": 8,
+    "Question": "What is one misconception that people have about your professional occupation?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 9,
+    "Question": "What, in your opinion, is the hardest part of my job?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 10,
+    "Question": "Rate my dancing skills, on a scale of 1 to 10",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 11,
+    "Question": "What does my instagram profile tell you about me?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 12,
+    "Question": "If you were to play in a band, what instrument would you choose to play?",
+    "Type1": "Interests",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 13,
+    "Question": "If you were a singer-songwriter, what genre would you play in?",
+    "Type1": "Interests",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 14,
+    "Question": "Name one movie that you watched multiple times",
+    "Type1": "Interests",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 15,
+    "Question": "If you were to pick a tattoo for me, what would it be and where would you place it?",
+    "Familiarity": 2,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 16,
+    "Question": "How did your sex drive change throughout your life, if at all",
+    "Familiarity": 3,
+    "Type1": "Body",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 17,
+    "Question": "What is your go-to category on pornography sites?",
+    "Familiarity": 3,
+    "Type1": "Body",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 18,
+    "Question": "Who did you want to be when you were a child?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 19,
+    "Question": "If money were not a problem and you had all the free time in the world, what would you do?",
+    "Familiarity": 1,
+    "Type1": "Values",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 20,
+    "Question": "What is your go-to comfort meal?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 21,
+    "Question": "If I were a desert, what would I be?",
+    "Familiarity": 2,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 22,
+    "Question": "What is your signature meal/recipe that you cook?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 23,
+    "Question": "What is your definition of success?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 24,
+    "Question": "Empathy or sympathy?",
+    "Type2": "Binary"
+  },
+  {
+    "ID": 25,
+    "Question": "If you had unlimited resources to start your own charity, what cause would you choose and why?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 26,
+    "Question": "What historical figure do you consider to be largely misunderstood?",
+    "Familiarity": 1,
+    "Type1": "Interests",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 27,
+    "Question": "What is one thing that you've always wanted to try but never had a chance to?",
+    "Familiarity": 2,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 28,
+    "Question": "What is your definition of a good friendship?",
+    "Familiarity": 2,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 29,
+    "Question": "What does work-life balance look like to you?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 30,
+    "Question": "How do you perceive time - does time pass through you, or do you follow up after the movement of the time?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 31,
+    "Question": "If I had a badass street rap name, what would it be?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 32,
+    "Question": "What is one lfie lesson you learned that changed your life significantly?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 33,
+    "Question": "At this point in life, what is your spirit animal?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 34,
+    "Question": "If you were a clothing item, what would you be?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 35,
+    "Question": "If you need to evacuate your home immediately and you only have time to pick one thing with you. What would it be?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 36,
+    "Question": "If you had a time machine, would you go back in time or into the future?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 37,
+    "Question": "If you could have any superpower, what would it be and why?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 38,
+    "Question": "If you could describe your mood today with one emoji, which would it be?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 39,
+    "Question": "What would you like your safeword to be?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 40,
+    "Question": "What is your most sensitive body part?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 41,
+    "Question": "Team sport or individual performance?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 42,
+    "Question": "What is your favourite type of sport to watch and why?",
+    "Familiarity": 1,
+    "Type1": "Interests",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 43,
+    "Question": "What does your favourite type of sport can teach the world?",
+    "Familiarity": 1,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 44,
+    "Question": "What does integrity mean to you?",
+    "Familiarity": 2,
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 45,
+    "Question": "What is the most difficult moral dilemma you had to face in your life?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 46,
+    "Question": "Do you believe the ends always justify the means? Why or why not?",
+    "Type2": "Binary"
+  },
+  {
+    "ID": 47,
+    "Question": "What is the most difficult challenge facing our civilization as of today?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 48,
+    "Question": "What is the most difficult ethical challenge facing our society today?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 49,
+    "Question": "Who do you talk to first when you have a problem in a relationship?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 50,
+    "Question": "When someone talks to you about their problems, do you offer solutions or supportinve listening?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 51,
+    "Question": "What was your favourite subject at school?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 52,
+    "Question": "What was your least favourite subject at school?",
+    "Type2": "Adaptive"
+  },
+  {
+    "ID": 53,
+    "Question": "Reactiveness or structure?",
+    "Type2": "Binary"
+  },
+  {
+    "ID": 53,
+    "Question": "A small group of friends or a large community of acquaintances?",
+    "Type2": "Binary"
+  }
+]
