@@ -13,3 +13,5 @@ const typeDefs = gql`
     Type2: String!
   }
 `;
+
+module.exports = typeDefs;
