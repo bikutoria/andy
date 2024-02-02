@@ -12,21 +12,23 @@ const apolloServer = new ApolloServer({
 const startServer = apolloServer.start();
 
 export default async function handler(req, res) {
-    if (req.method === 'OPTIONS') {
-      res.setHeader('Access-Control-Allow-Credentials', 'true');
-      res.setHeader('Access-Control-Allow-Origin', '*');
-      res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-      // Add this line to specify allowed methods
-      res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
-      res.end();
-      return false;
-    }
-  
-    await startServer;
-    await apolloServer.createHandler({
-      path: '/api/graphql',
-    })(req, res);
+  // Set CORS headers
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Origin', 'https://studio.apollographql.com');
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
+
+  if (req.method === 'OPTIONS') {
+    // Respond to OPTIONS request for preflight with status 200
+    res.status(200).end();
+    return;
   }
+
+  await startServer;
+  await apolloServer.createHandler({
+    path: '/api/graphql',
+  })(req, res);
+}
   
 
 // This disables the default body parser to improve performance
