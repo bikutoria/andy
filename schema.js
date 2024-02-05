@@ -8,7 +8,7 @@ const typeDefs = gql`
 
   type QuestionItem {
     ID: ID!
-    Question: String!
+    Question: [String!]
   }
 `;
 
